@@ -1,0 +1,27 @@
+/* src/styles/themes/light.css */
+
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --border-color: #ddd;
+    --primary-color: #007bff;
+    --primary-hover-color: #0056b3;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+  }
+  
+  button:hover {
+    background-color: var(--primary-hover-color);
+  }
+  
+  /* Additional theme-specific styles can be added here */
+  

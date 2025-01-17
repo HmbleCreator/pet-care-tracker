@@ -1,0 +1,50 @@
+/* src/styles/components/PetProfile.css */
+
+.pet-profile {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .pet-profile form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pet-profile label {
+    margin-bottom: 10px;
+  }
+  
+  .pet-profile input,
+  .pet-profile select,
+  .pet-profile button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .pet-profile img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .pet-profile button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .pet-profile button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "Pet Care Reminder & Health Tracker",
+    "version": "1.0",
+    "description": "Helps pet owners keep track of their pets' health and care routines.",
+    "icons": {
+      "16": "public/icons/icon16.png",
+      "48": "public/icons/icon48.png",
+      "128": "public/icons/icon128.png"
+    },
+    "permissions": [
+      "storage",
+      "notifications",
+      "alarms"
+    ],
+    "background": {
+      "scripts": ["src/background/background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "public/icons/icon16.png"
+    },
+    "content_scripts": [],
+    "web_accessible_resources": [],
+    "applications": {
+      "gecko": {
+        "id": "your-extension-id@example.com",
+        "strict_min_version": "42.0"
+      }
+    }
+  }

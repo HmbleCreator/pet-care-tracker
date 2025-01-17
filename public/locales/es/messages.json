@@ -1,0 +1,27 @@
+{
+    "appTitle": {
+      "message": "Recordatorio de Cuidado de Mascotas y Rastreador de Salud",
+      "description": "Título de la extensión"
+    },
+    "petProfile": {
+      "message": "Perfil de Mascota",
+      "description": "Sección de Perfil de Mascota"
+    },
+    "reminders": {
+      "message": "Recordatorios",
+      "description": "Sección de Recordatorios"
+    },
+    "healthTracker": {
+      "message": "Rastreador de Salud",
+      "description": "Sección de Rastreador de Salud"
+    },
+    "reports": {
+      "message": "Informes",
+      "description": "Sección de Informes"
+    },
+    "toggleTheme": {
+      "message": "Cambiar Tema",
+      "description": "Botón para cambiar el tema"
+    }
+  }
+  

@@ -1,0 +1,27 @@
+{
+    "appTitle": {
+      "message": "Pet Care Reminder & Health Tracker",
+      "description": "Title of the extension"
+    },
+    "petProfile": {
+      "message": "Pet Profile",
+      "description": "Pet Profile section"
+    },
+    "reminders": {
+      "message": "Reminders",
+      "description": "Reminders section"
+    },
+    "healthTracker": {
+      "message": "Health Tracker",
+      "description": "Health Tracker section"
+    },
+    "reports": {
+      "message": "Reports",
+      "description": "Reports section"
+    },
+    "toggleTheme": {
+      "message": "Toggle Theme",
+      "description": "Button to toggle theme"
+    }
+  }
+  
